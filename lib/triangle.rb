@@ -31,14 +31,6 @@ class Triangle
 
   end
 
-  def verify
-
-
-    raise TriangleError
-
-
-  end
-
   class TriangleError < StandardError
     
   end
